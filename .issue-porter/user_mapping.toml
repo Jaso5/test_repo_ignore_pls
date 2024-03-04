@@ -1,0 +1,21 @@
+
+[user-mapping]
+# Behaviour for non-mapped users
+# Options:
+#   "keep"   - Don't attempt mapping, this may ping 
+#   "remove" - Replace with value of user-mapping.missing-user-message
+missing-user-behavior = "remove"
+missing-user-message = "[USER REMOVED]"
+
+# [[user]]
+# gitlab-username = "@Dan.Shearer"
+# github-username = "@ Dan"
+
+[[user]]
+gitlab-username = "@jl17c23"
+github-username = "@Jaso5"
+
+# Add more users by repeating [[user]]
+# [[user]]
+# gitlab-username: "@username"
+# github-username: "@username"
